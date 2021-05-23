@@ -37,19 +37,28 @@
   }
 }
 
-.tab-list {  border-bottom: 1px solid #ccc;
-  padding-left: 0;
+.mainheading{
+  font-weight: 500;
+  text-align: center;
+  padding-top: 1rem;
+  /* position: absolute; */
+}
+
+.tab-list {  
+  padding-left: 600px;
 }
 
 .tab-list-item {
   display: inline-block;
+  border-bottom: 1px solid rgb(230, 223, 223);
   list-style: none;
   margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 3rem;
 }
 
 .tab-list-active {
   background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+  border-bottom: 3px solid blue;
+  /* border: solid #ccc; */
+  /* border-width: 1px 1px 0 1px; */
 }

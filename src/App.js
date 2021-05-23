@@ -8,7 +8,10 @@ import Tabs from "./components/Tabs";
 function App () {
     return (
       <div>
-        <h1>#todo</h1>
+        <div>
+          <h1 className="mainheading">#todo</h1>
+
+        </div>
           <Tabs>
             <div label="All">
               All to-dos
