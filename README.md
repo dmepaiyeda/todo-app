@@ -9,6 +9,12 @@
 * To-do list - check box and text 
 * Functionality of to-do list
 
+# Goals
+* Mon: finish implementing the UI for the tabs (fitting them and the information)
+* Tues: implement functionality for all tab
+* Wed: implement functionality for active tab
+* Thurs: implement functionality for completed tab
+* Fri: review what I did
 
 # Getting Started with Create React App
 

@@ -58,7 +58,9 @@
 
 .tab-list-active {
   background-color: white;
-  border-bottom: 3px solid blue;
+  border-width: 0px 0px 0 0px;
+  border-bottom: 5px solid rgb(17, 17, 212);
+  border-radius: 20rem 20rem 0rem 0rem;
+
   /* border: solid #ccc; */
-  /* border-width: 1px 1px 0 1px; */
 }
