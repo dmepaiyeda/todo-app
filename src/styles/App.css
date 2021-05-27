@@ -45,7 +45,9 @@
 }
 
 .tab-list {  
-  padding-left: 600px;
+  /* margin: 20px 0px 100px 10px; */
+  /* margin: auto; */
+  box-sizing: content-box;
 }
 
 .tab-list-item {
@@ -64,3 +66,8 @@
 
   /* border: solid #ccc; */
 }
+
+.tab-content{
+  /* box-sizing: content-box; */
+}
+

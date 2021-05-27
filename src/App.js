@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles/App.css";
 import { AddButton } from "./components/Button.js";
+import ViewAll from "./containers/ViewAll";
 import Tabs from "./components/Tabs";
 
 function App () {
@@ -10,11 +11,11 @@ function App () {
       <div>
         <div>
           <h1 className="mainheading">#todo</h1>
-          <div>{AddButton}</div>
         </div>
-          <Tabs>
+
+          <Tabs className="tab-box">
             <div label="All">
-              All to-dos
+              <ViewAll/>
             </div>
 
             <div label="Active">
